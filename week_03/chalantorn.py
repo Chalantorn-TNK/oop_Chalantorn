@@ -1,0 +1,7 @@
+print("hello python")
+print("Chalantorn Tharaporn")
+print("Bas")
+print("18")
+print("5")
+print("67319010005")
+print("watch a movie")
