@@ -1,0 +1,25 @@
+sum = 0
+while True:
+    try:
+        num = (input("ใส่ราคาสินค้า : "))
+        if num == "exit":
+            print(f"ยอดขายรวมทั้งหมด {sum}")
+            break
+        num = int(num)
+        if num == 0:
+            raise ZeroDivisionError
+        elif num < 0:
+            raise Exception
+        else:
+             sum += num
+             
+    except ValueError:
+        print("ใส่เฉพาะตัวเลข")
+    except ZeroDivisionError:
+        print("ห้ามใส่ 0")
+    except:
+        print("ห้ามใส่เลขติดลบ")
+    
+        
+            
+        
